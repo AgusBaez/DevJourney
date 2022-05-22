@@ -54,7 +54,7 @@
 
         <p>
           <label for="range">Range: </label>
-          <input id="range" type="range" placeholder="Rango" name="range" />
+          <input id="range" type="range" placeholder="Range" name="bar" />
         </p>
         <button>button</button>
       </form>
@@ -75,10 +75,38 @@
       </form>
       <h3>Google</h3>
       <form action="https://www.google.com.ar/search?">
+        <input type="text" name="q" id="google" />
         <p>
-          <input type="text" name="q" id="google" /><br />
           <button>Buscar con Google</button>
           <button>Me siento con Suerte</button>
+        </p>
+      </form>
+      <hr />
+      <h2>More Inputs!! ye¡</h2>
+      <form action="/somewhere">
+        <p>
+          <input type="checkbox" name="luky" id="luky" />
+          <label for="luky">I feel luky?</label>
+        </p>
+        <p>
+          <label for="luky-on">You fell luky?</label>
+          <input type="radio" name="luky" id="luky-on" value="luky-on" />
+          <label for="luky-off">You not fell luky?</label>
+          <input type="radio" name="luky" id="luky-off" value="luky-off" />
+          <label for="maybe-luky">You maybe fell luky?</label>
+          <input type="radio" name="luky" id="maybe-luky" value="maybe-luky" />
+        </p>
+        <button>Submit</button>
+        <hr />
+        <p>
+          <label for="room"><b>Select a room</b></label>
+          <select name="room" id="room">
+            <option value="vip">V.I.P</option>
+            <option value="medium">Hihg</option>
+            <option value="normal">Basic</option>
+            <option value="select" selected>select room</option>
+          </select>
+          <button>selected room</button>
         </p>
       </form>
     </main>
