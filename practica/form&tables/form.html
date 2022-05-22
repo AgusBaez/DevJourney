@@ -28,7 +28,12 @@
 
         <p>
           <label for="pass">Password: </label>
-          <input id="pass" type="password" placeholder="password" name="password" />
+          <input
+            id="pass"
+            type="password"
+            placeholder="password"
+            name="password"
+          />
         </p>
 
         <p>
@@ -42,11 +47,31 @@
         </p>
 
         <p>
-           <label for="range">Range: </label> 
+          <label for="range">Range: </label>
           <input id="range" type="range" placeholder="Rango" name="range" />
         </p>
-
         <button>button</button>
+      </form>
+      <hr />
+      <h2>Ejercicio Demo - Buscador desde mi formulario</h2>
+      <h3>Reddit</h3>
+      <form action="https://www.reddit.com/search">
+        <p>
+          <input type="text" name="q" id="reditt" /> <button>search</button>
+        </p>
+      </form>
+      <h3>Yotube</h3>
+      <form action="https://www.youtube.com/results?">
+        <p>
+          <input type="text" name="search_query" id="youtube" />
+          <button>search</button>
+        </p>
+      </form>
+      <h3>Google</h3>
+      <form action="https://www.google.com.ar/search?">
+        <p>
+          <input type="text" name="q" id="google" /><br> <button>Buscar con Google</button> <button>Me siento con Suerte</button>
+        </p>
       </form>
     </main>
     <footer>
