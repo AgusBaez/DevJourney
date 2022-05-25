@@ -104,7 +104,7 @@
           <label for="range">Room Price: </label>
           <input
             id="range"
-            type="range" 
+            type="range"
             placeholder="Range"
             name="bar"
             min="10"
@@ -128,7 +128,7 @@
         <p>
           <label for="tea">Comment</label>
           <textarea
-          cols="1000"
+            cols="1000"
             name="textarea"
             id="tea"
             cols="30"
@@ -141,15 +141,60 @@
       <h2>Ejercicio - Form Practice Exercise</h2>
       <form action="/register">
         <p>
-            <label for="user">Username</label>
-            <input id="user" type="text" placeholder="username" name="username">
+          <label for="user">Username</label>
+          <input id="user" type="text" placeholder="username" name="username" />
         </p>
         <p>
-            <label for="pass">Password</label>
-            <input id="pass" type="password" placeholder="password" name="password">
+          <label for="pass">Password</label>
+          <input
+            id="pass"
+            type="password"
+            placeholder="password"
+            name="password"
+          />
         </p>
         <button>Register</button>
-    </form>
+      </form>
+
+      <h2>Validations Demo</h2>
+      <form action="/data">
+        <label for="name">First Name</label>
+        <input type="text" required id="name" name="user" />
+
+        <p>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            minlength="5"
+            maxlength="20"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="age">Age</label>
+          <input
+            type="number"
+            required
+            id="age"
+            name="year"
+            min="-1"
+            max="-1"
+          />
+          <button>Submit</button>
+        </p>
+
+        <p>
+          <label for="email">URL</label>
+          <input
+            placeholder="http//"
+            type="url"
+            required
+          />
+        </p>
+      </form>
     </main>
     <footer>
       <hr />
