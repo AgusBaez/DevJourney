@@ -28,11 +28,6 @@
         </p>
 
         <p>
-          <label for="num">Numbers: </label>
-          <input id="num" type="number" placeholder="Only numbers" name="num" />
-        </p>
-
-        <p>
           <label for="pass">Password: </label>
           <input
             id="pass"
@@ -52,10 +47,6 @@
           <input id="date" type="date" placeholder="Fecha" name="date" />
         </p>
 
-        <p>
-          <label for="range">Range: </label>
-          <input id="range" type="range" placeholder="Range" name="bar" />
-        </p>
         <button>button</button>
       </form>
       <hr />
@@ -107,6 +98,43 @@
             <option value="select" selected>select room</option>
           </select>
           <button>selected room</button>
+        </p>
+
+        <p>
+          <label for="range">Room Price: </label>
+          <input
+            id="range"
+            type="range"
+            placeholder="Range"
+            name="bar"
+            min="10"
+            max="100"
+            value="75"
+          />
+        </p>
+
+        <p>
+          <label for="num">Peoople </label>
+          <input
+            id="num"
+            type="number"
+            placeholder="Only numbers"
+            name="num"
+            min="1"
+            max="99"
+          />
+        </p>
+
+        <p>
+          <label for="tea">Comment</label>
+          <textarea
+          cols="1000"
+            name="textarea"
+            id="tea"
+            cols="30"
+            rows="5"
+            placeholder="Any Comment?"
+          ></textarea>
         </p>
       </form>
     </main>
