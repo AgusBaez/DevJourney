@@ -4,11 +4,16 @@
 
 /* Execise */
 h1{
-    color:green;
+    /* color:green; */
+    color: rgb(0,200, 0);;
+    /* color:green; */
+
+
 }
 
 h2 {
-    color:magenta;
+    /* color:magenta; */
+    color: #ff5f;
 }
 
 p{
