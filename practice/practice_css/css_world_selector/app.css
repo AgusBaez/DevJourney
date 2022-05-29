@@ -1,3 +1,6 @@
+::selection{
+    background-color: rgb(220, 179, 43);
+}
 
 
 body{
@@ -15,6 +18,14 @@ nav{
 
 main{
     background-color: #FFCDD2;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color: purple;
 }
 
 /* Bottons in main*/
