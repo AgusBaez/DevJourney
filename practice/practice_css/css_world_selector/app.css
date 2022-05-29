@@ -2,13 +2,30 @@ body{
     background-color: #F9E79F;
 }
 
+footer{
+    background-color: black;
+}
+
 nav{
     background-color: #A3E4D7;
 }
 main{
     background-color: #A9DFBF;
 }
-
+/* ID */
 #sing{
-    background-color: #42A5F5 ;
+    background-color: #0dc7dc ;
+}
+
+span{
+    color: rgba(1, 108, 42, 0.648); ;
+}
+
+/* CLASS */
+.tag{
+    background-color: rgb(185, 84, 84);
+}
+
+footer{
+    background-color: black;
 }
