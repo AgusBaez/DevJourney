@@ -1,43 +1,59 @@
 
 
 body{
-    background-color: teal;
+    background-color: rgb(64, 59, 6);
 }
 
 nav{
     background-color: #A3E4D7;
 }
 
-/* ID */
+/* ID selector con #*/
 #sing{
     background-color: #0dc7dc ;
 }
 
 main{
-    background-color: #A9DFBF;
+    background-color: #FFCDD2;
 }
 
+/* Bottons in main*/
 section button{
     background-color: #FFEB3B;
 }
 
+button:hover {
+    background-color: red;
+}
+
+
+.post button:active {
+    background-color: violet;
+    }
+
+    /* Links or etiquet 'a' */
 .post a{
     color: rgba(1, 108, 42, 0.648);
     background-color: #E1BEE7 ;
 }
 
+/* spans */
 span{
     color: rgba(1, 108, 42, 0.648);
 }
 
-/* CLASS */
+/* CLASS whin selector at .*/
 .tag {
     background-color: rgb(185, 84, 84);
     font-size: 16px;
     font-family: monospace;
 }
 
+.post:nth-of-type(2n){
+    background-color: #faf09c;
+}
 
+/* footers */
 footer{
     background-color: black;
 }
