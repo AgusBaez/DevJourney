@@ -1,0 +1,35 @@
+div{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    background-color: violet;
+    width: 100px;
+    border: 4mm ridge rgb(224, 92, 92);
+    border-radius: 15px;
+    border-bottom-right-radius: 50px;
+}
+
+#one{
+    background-color: pink;
+    border: 5px;
+    border-color: palevioletred;
+    border-style: dotted;
+    box-sizing: border-box;
+}
+#two{
+    background-color: rgb(202, 152, 161);
+    border: 5px;
+    border-color: rgb(213, 97, 136);
+    border-style: inset;
+    box-sizing: border-box;
+}
+#three{
+    background-color: rgb(168, 128, 134);
+    border: 5px;
+    border-color: rgb(215, 90, 132);
+    border-style: solid;
+    box-sizing: border-box;
+}
