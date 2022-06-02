@@ -1,9 +1,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-h1 {
+h1,h2 {
     text-align: center;
 }
+
 #container {
     background-color: #003049;
     width: 90%;
@@ -11,11 +12,11 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: row/*column, column-reverse, row; */;
-    justify-content: center/*, space beteew, space around, space-evenly(espacio uniforme) */;
+    flex-direction: row-reverse/*column, column-reverse, row; */;
+    justify-content: space-evenly/*, space beteew, space around, space-evenly(espacio uniforme) */;
     align-items: flex-start /*flex-start/end center */;
-    flex-wrap:/* nowrap, wrap-reverse,*/ wrap;
-    align-content: space-between /*center, space-around, flex-start, flex-end*/;/*Depende del wrap¡¡*/
+    flex-wrap:/* nowrap, wrap-reverse,warp*/ nowrap;
+    align-content: space-around /*center, space-around, flex-start, flex-end*/;/*Depende del wrap¡¡*/
 }
 
 #container div{
@@ -25,6 +26,21 @@ h1 {
 }
 
 div:nth-of-type(3){
-    align-self: flex-end /*center, flex-start*/;
+    align-self: center/*center, flex-start/end*/;
 }
 
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+main .sidebar{
+    background-color: #d00c6b;
+    flex: 2 2 300px;
+}
+main .maincontent{
+    background-color: #09ab9d;
+    flex: 2 1 800px; 
+}
