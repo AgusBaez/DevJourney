@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+@media(max-width: 535px){
+    h1{
+        font-size: 2em;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 362px){
+    h1, nav{
+        font-size: 1em;
+    }
+}
