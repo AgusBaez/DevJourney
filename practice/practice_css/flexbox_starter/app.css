@@ -11,16 +11,20 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: row /*column, column-reverse, row; */;
-    justify-content: center/* center, space beteew, space around, space-evenly(espacio uniforme) */;
-    
-    flex-wrap:/* wrap, wrap-reverse,*/ nowrap;
-    align-items: /*flex-end flex-start*/ center;
+    flex-direction: row/*column, column-reverse, row; */;
+    justify-content: center/*, space beteew, space around, space-evenly(espacio uniforme) */;
+    align-items: flex-start /*flex-start/end center */;
+    flex-wrap:/* nowrap, wrap-reverse,*/ wrap;
+    align-content: space-between /*center, space-around, flex-start, flex-end*/;/*Depende del wrap¡¡*/
 }
 
 #container div{
     width: 200px;
     height: 200px;
     font-size: 4em;
+}
+
+div:nth-of-type(3){
+    align-self: flex-end /*center, flex-start*/;
 }
 
