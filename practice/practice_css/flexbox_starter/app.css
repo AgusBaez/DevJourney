@@ -44,3 +44,16 @@ main .maincontent{
     background-color: #09ab9d;
     flex: 2 1 800px; 
 }
+
+
+@media (min-width: 100px){
+    h1,h2{
+        color: green;
+    }
+}
+
+@media (min-width: 1000px){
+    h1,h2{
+        color: rgb(11, 0, 128);
+    }
+}
