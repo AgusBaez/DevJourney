@@ -11,18 +11,16 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    /* flex-direction: ; */
-/* flex-direction: column, column-reverse, row; */
-    flex-direction: column;
-    /* justify-content: ; */
-    /* center, space beteew, space around, space-evenly(espacio uniforme) */
-    justify-content: center, space-around;
-    /* flex-wrap: wrap, wrap-reverse, nowrap; */
-    flex-wrap: wrap;
+    flex-direction: row /*column, column-reverse, row; */;
+    justify-content: center/* center, space beteew, space around, space-evenly(espacio uniforme) */;
+    
+    flex-wrap:/* wrap, wrap-reverse,*/ nowrap;
+    align-items: /*flex-end flex-start*/ center;
 }
 
 #container div{
     width: 200px;
     height: 200px;
+    font-size: 4em;
 }
 
