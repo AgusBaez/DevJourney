@@ -11,9 +11,9 @@ if (ramd > 0.5) {
 console.log(`Other Conditional, my number "${ramd}" is even or not?`);
 
 if (ramd % 2 === 0) {
-    console.log("even");
+  console.log("even");
 } else {
-    console.log(`Not even`);
+  console.log(`Not even`);
 }
 
 console.log(`Classification according to the age of the people`);
@@ -28,12 +28,11 @@ if (age < 5) {
 } else if (age < 35) {
   console.log(`this person is the age of a adult`);
 } else if (age < 60) {
-    console.log(`this person is the age of a adult`);
+  console.log(`this person is the age of a adult`);
 } else if (age < 100) {
   console.log(`this person is the age of a senior`);
 } else {
   console.log(`This person is die`);
-
 }
 
 //Atrapa al ladron
@@ -41,16 +40,16 @@ console.log(`catch the thief`);
 const ladron = Math.round(Math.random() * (103 - 0));
 console.log(ladron);
 
-if(ladron <= 100) {
-    if(ladron >= 50) {
-        console.log("HEY! YOU CLOSE");
-    }
+if (ladron <= 100) {
+  if (ladron >= 50) {
+    console.log("HEY! YOU CLOSE");
+  }
 } else {
-    if (ladron < 103) {
-        if(ladron % 2 === 0){
-            console.log("YOU GOT ME!");
-        }
+  if (ladron < 103) {
+    if (ladron % 2 === 0) {
+      console.log("YOU GOT ME!");
     }
+  }
 }
 
-console.log(`The end`);
+console.log(`&& || ! = The end`);
