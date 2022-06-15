@@ -31,3 +31,26 @@ console.log(slice);
 let nameList = ["Harry", "Lua", "Hermione", "Bellatrix"];
 nameList.splice(1, 0, "Agustin");
 console.log(nameList);
+
+//GameBoard
+const gameBoard = [
+  ["X", "O", "X"],
+  ["O", null, "X"],
+  ["O", "O", "X"],
+];
+console.log(`A game Board`);
+console.log(gameBoard[0]);
+console.log(gameBoard[1]);
+
+console.log(gameBoard[2]);
+
+//Buscar, eliminar e insertar
+const airplaneSeats = [
+  ["Ruth", "Anthony", "Stevie"],
+  ["Amelia", "Pedro", "Maya"],
+  ["Xavier", "Ananya", "Luis"],
+  ["Luke", null, "Deniz"],
+  ["Rin", "Sakura", "Francisco"],
+];
+airplaneSeats[3].splice(1, 1, "Hugo");
+console.log(airplaneSeats);
