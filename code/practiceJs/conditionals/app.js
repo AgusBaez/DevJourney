@@ -36,4 +36,21 @@ if (age < 5) {
 
 }
 
+//Atrapa al ladron
+console.log(`catch the thief`);
+const ladron = Math.round(Math.random() * (103 - 0));
+console.log(ladron);
+
+if(ladron <= 100) {
+    if(ladron >= 50) {
+        console.log("HEY! YOU CLOSE");
+    }
+} else {
+    if (ladron < 103) {
+        if(ladron % 2 === 0){
+            console.log("YOU GOT ME!");
+        }
+    }
+}
+
 console.log(`The end`);
