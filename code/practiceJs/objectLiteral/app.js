@@ -13,11 +13,11 @@ const product = [
     price: 1.99,
     flavors: ["grape", "apple", "cherry"],
     false: true,
-  },
+  }
 ];
 console.log(product);
 
-//Ubicacion de restaurante // ACCEDER A LA DATA DEL OBJETO
+//Ubicacion de restauranL OBJETO
 const restaurant = {
   name: "Ichiran Ramen",
   address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
@@ -35,6 +35,7 @@ const fullAddress =
   " " +
   restaurant.zipcode;
 console.log(fullAddress);
+
 //MODIFICANDO UN OBJETO
 product[0].price = 3.99;
 product[1].iva = "21%";
