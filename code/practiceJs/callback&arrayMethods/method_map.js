@@ -1,3 +1,4 @@
+console.log("---- Map method ----");
 const fullNames = [
   { first: "Albus", last: "Dumbledore" },
   { first: "Harry", last: "Potter" },
