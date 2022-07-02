@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow</title>
+</head>
+<body>
+  <h1 style="font-size: 150px;">
+    <span>R</span>
+    <span>A</span>
+    <span>I</span>
+    <span>N</span>
+    <span>B</span>
+    <span>O</span>
+    <span>W</span>
+  </h1>
+
+  <script>
+    const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+    let contador = 0;
+    let allSpans = document.querySelectorAll('h1 span');
+    for (let j of allSpans){
+      j.style.color = colors[contador++];
+    }
+  </script>
+</body>
+</body>
+</html>
