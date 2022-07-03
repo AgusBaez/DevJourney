@@ -1,0 +1,18 @@
+#container {
+    background-color: aqua;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+}
+
+span{
+    background-color: greenyellow;
+}
+
+img {
+    display: block;
+}
