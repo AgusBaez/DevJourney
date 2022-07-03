@@ -14,3 +14,14 @@ const btn3 = document.querySelector("#v3");
 btn3.addEventListener("click", () => {
   alert("Clicked!");
 });
+
+function event1() {
+  console.log("Event one");
+}
+
+const twoEvents = document.querySelector("#two");
+
+twoEvents.addEventListener("click", event1, { once: true });
+twoEvents.addEventListener("click", () => {
+  console.log("Event two");
+});
