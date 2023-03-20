@@ -1,6 +1,4 @@
 #Ignorar:
 recursos
 /node_modules
-/package-lock.json
-package.json
 /images

@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "give-me-a-joke": "^0.5.1",
+    "node-fetch": "^3.2.9"
+  },
+  "name": "bootcamp",
+  "description": "> START MY OWN PATH FROM THE BEGINNING TO BECOMING A FULL-STACK WEB DEVELOPER TOGETHER WITH COLT AN INSTRUCTOR FROM UDEMY, OTHER COURSES AND WITH OTHER TEACHERS WILL HELP ME IN THIS DECISION OF TEACHING MYSELF THROUGH RESOURCES AT MY VAILABILITY\\_\\*\\*",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgusBaez/bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgusBaez/bootcamp/issues"
+  },
+  "homepage": "https://github.com/AgusBaez/bootcamp#readme"
+}
