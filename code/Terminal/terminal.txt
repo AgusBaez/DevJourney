@@ -1,0 +1,13 @@
+Mensaje de texto que intentara comunicarse con la maquina, y utilizar diferentes herramientas sin limites, a largo plazo nos dara una mejora
+en la rapidez con la que se generan las cosas en la computadora
+
+La Terminal en algunos casos actuales son Software que permine la comunicacion con la computadora de manera virtual(a traves de software),
+de manera global, Por ejemplo una terminal podria estar integrada en un cajero automatico para las funcionalidades del Hardware
+
+La que viene por default en las computadoras son llamadas Shell o bien Zshell, en diferentes sistemas operativos tambien se encuentra Bash
+Como se dijo antes, hay varios Software para Terminales, cada sistema Operativo se va a tener acceso a uno
+
+Se denominan Conchas, como si tuvieras capas o corazas a las que se podra acceder, aveces queremos hacer un cambio en un archivo, y otras
+veces se opta por hacer cambios en el SO
+
+Cada una tiene diferente Funciones, Caracteristicas y Disponibilidades, tambien se guian por versiones, y se pueden tener diferentes Terminales en un mismo computadora
