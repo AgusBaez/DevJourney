@@ -1,4 +1,5 @@
 #Ignorar:
 recursos
 /node_modules
+/code/practice_express/node_modules
 /images
