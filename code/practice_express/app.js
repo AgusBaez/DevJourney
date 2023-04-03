@@ -6,6 +6,12 @@ app.get("/some/:any_param", (req, res) => {
   res.send("This is a route whit a param in the link");
 });
 
+app.get("/any", (req, res) => {
+  console.log(req.query);
+  const q = req.query;
+  res.send(`This is the query in the path ${q}`);
+});
+
 app.get("/some", (req, res) => {
   res.send("This is a GET response");
 });
