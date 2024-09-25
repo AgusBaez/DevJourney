@@ -11,9 +11,10 @@
 
 ## 📝 Online Courses
 
-- [The Web Developer Bootcamp 2022](https://www.udemy.com/course/the-web-developer-bootcamp/) - **COMPLETELY REDONE** - The only course you need to learn web development: HTML, CSS, JS, Node, and more!
+- **[The Web Developer Bootcamp 2024](https://www.udemy.com/course/the-web-developer-bootcamp/)** - Colt Steele. A comprehensive course covering web development fundamentals.
+- **[JavaScript Course](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA)** - Jhon Mircha. A playlist for mastering JavaScript from the basics to advanced topics.
 
 ## 📫 Contact
 
 - **Agustin Baez** - _Initial Work_ - [AgusBaez](https://github.com/AgusBaez)  
-If you have any questions or suggestions, feel free to reach out to me through my GitHub profile.
+If you have any questions or suggestions, feel free to reach out to me through my GitHub profile or at [agustinbaezignacio@gmail.com](mailto:agustinbaezignacio@gmail.com).
