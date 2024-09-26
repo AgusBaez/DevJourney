@@ -10,7 +10,7 @@
 - **/resources**: A list of useful resources (books, courses, blogs).
 
 ## 📝 Online Courses
-- **[Learning structure (ROADMAPS)](https://roadmap.sh/u/agustinbaez)** - Colt Steele. A comprehensive course covering web development fundamentals.
+- **[Learning structure (ROADMAPS)](https://roadmap.sh/u/agustinbaez)** - Guides and articles to help developers grow in their career. .
 - **[The Web Developer Bootcamp 2024](https://www.udemy.com/course/the-web-developer-bootcamp/)** - Colt Steele. A comprehensive course covering web development fundamentals.
 - **[JavaScript Course](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA)** - Jhon Mircha. A playlist for mastering JavaScript from the basics to advanced topics.
 
