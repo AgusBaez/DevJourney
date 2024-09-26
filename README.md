@@ -2,6 +2,16 @@
 
 > Welcome to **devJourney**! This repository is a learning journey in programming. Here you will find resources, tutorials, and projects that I have developed while studying different languages and programming concepts.
 
+## 🛠️ My Stack of Technologies Covered
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Express.js**
+- **Nest.js**
+- **React.js**
+- **TypeScript**
+
 ## 📚 Repository Structure
 
 - **/fundamentals**: Basic programming concepts.
