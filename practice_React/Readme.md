@@ -15,3 +15,7 @@ Este repositorio contiene una serie de proyectos creados para practicar y mejora
 3. **Project 3: Todo App**
    - Descripción: Aplicación de lista de tareas con manejo de estado local.
    - [Repositorio de GitHub](https://github.com/usuario/todo-app)
+
+4. **Project 3: 🎰 SlotsMachine**
+   - Slots como las maquinas de casino, renderizados condicionales y funcionalidades de React.
+   - [Repositorio de GitHub](https://github.com/usuario/SlotsMachine)
