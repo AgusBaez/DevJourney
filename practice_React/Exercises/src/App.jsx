@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PokeCard } from "./components/pokemon/pokeCard/PokeCard";
+import Slots from "./components/Slots/Slots";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -9,11 +10,11 @@ function App() {
 
   return (
     <>
+      <Slots slot1="🍒" slot2="🍒" slot3="🍒" />
+      <Slots slot1="🍒" slot2="🍌" slot3="🍒" />
       <PokeCard />
       <PokeCard />
       <PokeCard />
-      <h1>Slot Practice!</h1>
-      <Slots slot1="" slot2="" slot3="" />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
