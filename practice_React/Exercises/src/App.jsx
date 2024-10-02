@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <Slots slot1="🍒" slot2="🍒" slot3="🍒" />
-      <Slots slot1="🍒" slot2="🍌" slot3="🍒" />
+      <Slots />
+      <Slots />
       <PokeCard />
       <PokeCard />
       <PokeCard />
