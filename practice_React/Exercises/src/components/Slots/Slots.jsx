@@ -3,7 +3,7 @@ const SlotGame = () => {
   const [emoji1, setEmoji1] = useState("🍒");
   const [emoji2, setEmoji2] = useState("🍒");
   const [emoji3, setEmoji3] = useState("🍒");
-  const [result, setResult] = useState();
+  const [result, setResult] = useState("");
 
   const emojis = ["🍒", "🍋", "🍉", "🍇", "🍌"];
 
@@ -14,26 +14,35 @@ const SlotGame = () => {
   };
 
   useEffect(() => {
-    if (emoji1 === emoji2 && emoji2 === emoji3) {
+    if (emoji1 === emoji2 && emoji3 === emoji2) {
       setResult(true);
     } else {
       setResult(false);
     }
-  }, [emoji1, emoji2, emoji3]); // Se ejecuta cuando cualquiera de los emojis cambie
-
+  }, [emoji1, emoji2, emoji3]);
   return (
     <div>
       <h1>🎰 Slot Machine 🎰</h1>
-      <div style={{ fontSize: "50px" }}>
+      <div
+        style={{
+          fontSize: "50px",
+          border: "2px solid black",
+          borderRadius: "10px",
+          justifyContent: "space-around",
+          alignItems: "center",
+          padding: "10px",
+          margin: "10px",
+        }}
+      >
         {emoji1} {emoji2} {emoji3}
+        
+        {result ? (
+          <h4 style={{ color: "green" }}>🎉 WINNER 🎉</h4>
+        ) : (
+          <h4 style={{ color: "yellow" }}>😢 LOSER 😢</h4>
+        )}
       </div>
       <button onClick={spin}>Spin</button>
-
-      {result ? (
-        <h2 style={{ color: "green" }}>🎉 WINNER 🎉</h2>
-      ) : (
-        <h2 style={{ color: "yellow" }}>😢 LOSER 😢</h2>
-      )}
     </div>
   );
 };
