@@ -1,0 +1,13 @@
+.div {
+  color: black;
+  background: white;
+  width: 400px;
+  height: 180px;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5px;
+  item: 2;
+}
+

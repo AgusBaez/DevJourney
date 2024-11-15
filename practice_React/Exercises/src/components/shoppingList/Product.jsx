@@ -3,7 +3,7 @@ import ProductList from "./ProductList";
 const Product = ({ data }) => {
   return (
     <>
-      <h1>🛒 List of Products 🛒</h1>
+      <h2>🛒 List of Products 🛒</h2>
 
       <ul>
         {data.map((cart) => (
@@ -13,6 +13,7 @@ const Product = ({ data }) => {
             quantity={cart.quantity}
             completed={cart.completed}
             price={cart.price}
+            // {...cart}
           />
         ))}
       </ul>

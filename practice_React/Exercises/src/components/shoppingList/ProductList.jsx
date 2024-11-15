@@ -1,11 +1,16 @@
-const ProductList = ({ key, name, quantity, completed, price }) => {
-  console.log(name);
+const ProductList = ({ name, quantity, completed, price }) => {
+  const style = {
+    color: completed ? "grey" : "red",
+    textDecoration: completed ? "line-through" : "none",
+  };
 
   return (
-    <p>
-      {name} - ${price} - Quantity: {quantity} - Completed:
-      {completed ? "Yes" : "No"}
-    </p>
+    <li style={style}>
+      <p>
+        {name} - ${price} - Quantity: {quantity} - Completed:
+        {completed ? "Yes" : "No"}
+      </p>
+    </li>
   );
 };
 

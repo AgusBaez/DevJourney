@@ -22,7 +22,7 @@ const SlotGame = () => {
   }, [emoji1, emoji2, emoji3]);
   return (
     <div>
-      <h1>🎰 Slot Machine 🎰</h1>
+      <h2>🎰 Slot Machine 🎰</h2>
       <div
         style={{
           fontSize: "50px",
@@ -35,7 +35,6 @@ const SlotGame = () => {
         }}
       >
         {emoji1} {emoji2} {emoji3}
-        
         {result ? (
           <h4 style={{ color: "green" }}>🎉 WINNER 🎉</h4>
         ) : (

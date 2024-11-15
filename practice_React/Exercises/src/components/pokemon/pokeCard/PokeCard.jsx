@@ -6,7 +6,7 @@ export const PokeCard = () => {
 
   return (
     <div className="Card">
-      <h1>Pokemon ID #{pokeId}</h1>
+      <h2>Pokemon ID #{pokeId}</h2>
       <img src={pokeUrl} alt="pokeimage" />
     </div>
   );

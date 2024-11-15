@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { PokeCard } from "./components/pokemon/pokeCard/PokeCard";
 import Product from "./components/shoppingList/Product";
+import PropertyList from "./components/rentProperty/PropertyList.jsx";
 import Slots from "./components/Slots/Slots";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -14,13 +15,21 @@ function App() {
     { id: 3, name: "Cherms", price: 30, quantity: 14, completed: true },
     { id: 4, name: "CocaCola", price: 40, quantity: 1, completed: false },
   ];
+
+  const apiProperties = [
+    { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
+    { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
+    { id: 129032, name: "Cactus Retreat", rating: 4.75, price: 300 },
+    { id: 129033, name: "Redwood Treehouse Escape", rating: 4.9, price: 120 },
+    { id: 129034, name: "Oceanview Condo", rating: 4.7, price: 140 },
+    { id: 129035, name: "Gold Miner Campground", rating: 4.69, price: 96 },
+  ];
   return (
     <>
+      <h1>🕋Excersices for Practice🌌</h1>
+      <PropertyList properties={apiProperties} />
       <Product data={api} />
       <Slots />
-      <Slots />
-      <PokeCard />
-      <PokeCard />
       <PokeCard />
       <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -30,7 +39,6 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((prev) => prev + 1)}>
           count is {count}
