@@ -3,6 +3,7 @@ import { PokeCard } from "./components/pokemon/pokeCard/PokeCard";
 import Product from "./components/shoppingList/Product";
 import PropertyList from "./components/rentProperty/PropertyList.jsx";
 import Slots from "./components/Slots/Slots";
+import Clicker from "./components/Event/Clicker.jsx";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -26,11 +27,18 @@ function App() {
   ];
   return (
     <>
+      <h1>🔽Excersices for Practice👆</h1>
+      <h5>Events</h5>
+      <Clicker message="Hi there" />
       <h1>🕋Excersices for Practice🌌</h1>
+      <h5>props</h5>
       <PropertyList properties={apiProperties} />
+      <h5>props, types, key & more</h5>
       <Product data={api} />
+      <h5>Rendering Arrays</h5>
       <Slots />
       <PokeCard />
+      <h5>Default</h5>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
