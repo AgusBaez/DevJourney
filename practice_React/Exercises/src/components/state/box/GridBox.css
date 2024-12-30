@@ -1,0 +1,7 @@
+div.GridBox {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 4;
+  justify-content: space-between;
+}
+

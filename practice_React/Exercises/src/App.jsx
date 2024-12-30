@@ -3,7 +3,10 @@ import { PokeCard } from "./components/pokemon/pokeCard/PokeCard";
 import Product from "./components/shoppingList/Product";
 import PropertyList from "./components/rentProperty/PropertyList.jsx";
 import Slots from "./components/Slots/Slots";
-import Clicker from "./components/Event/Clicker.jsx";
+import Clicker from "./components/event/Clicker.jsx";
+import Counter from "./components/state/counter/Counter.jsx";
+import Toggler from "./components/state/toggler/Toggler.jsx";
+import ContainerBox from "./components/state/box/ContainerBox.jsx";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -25,15 +28,47 @@ function App() {
     { id: 129034, name: "Oceanview Condo", rating: 4.7, price: 140 },
     { id: 129035, name: "Gold Miner Campground", rating: 4.69, price: 96 },
   ];
+
+  const listColors = [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "pink",
+    "brown",
+    "black",
+    "white",
+    "gray",
+    "cyan",
+    "magenta",
+    "lime",
+    "teal",
+    "indigo",
+    "violet",
+    "gold",
+    "silver",
+    "beige",
+    "coral",
+    "navy",
+    "maroon",
+    "olive",
+    "turquoise",
+  ];
+
   return (
     <>
-      <h1>🔽Excersices for Practice👆</h1>
-      <h5>Events</h5>
+      <h1>🔽🌌Excersices for Practice📝🕋</h1>
+      <h5>States Basics</h5>
+      <ContainerBox colors={listColors} />
+      <Toggler />
+      <Counter />
+      <h5>Events basics</h5>
       <Clicker message="Hi there" />
-      <h1>🕋Excersices for Practice🌌</h1>
-      <h5>props</h5>
+      <h5>More about Props..</h5>
       <PropertyList properties={apiProperties} />
-      <h5>props, types, key & more</h5>
+      <h5>Props, types, key & more..</h5>
       <Product data={api} />
       <h5>Rendering Arrays</h5>
       <Slots />
