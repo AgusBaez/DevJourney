@@ -7,6 +7,8 @@ import Clicker from "./components/event/Clicker.jsx";
 import Counter from "./components/state/counter/Counter.jsx";
 import Toggler from "./components/state/toggler/Toggler.jsx";
 import ContainerBox from "./components/state/box/ContainerBox.jsx";
+import StateDemo from "./components/state-demo/StateDemo.jsx";
+import ScoreKeeper from "./components/score-keeper/ScoreKeeper.jsx";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -60,6 +62,10 @@ function App() {
   return (
     <>
       <h1>🔽🌌Excersices for Practice📝🕋</h1>
+      <h5>Using Objects in State</h5>
+      <ScoreKeeper />
+      <h5>State Intermediate</h5>
+      <StateDemo />
       <h5>States Basics</h5>
       <ContainerBox colors={listColors} />
       <Toggler />
