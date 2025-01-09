@@ -9,6 +9,7 @@ import Toggler from "./components/state/toggler/Toggler.jsx";
 import ContainerBox from "./components/state/box/ContainerBox.jsx";
 import StateDemo from "./components/stateDemo/StateDemo.jsx";
 import ScoreKeeper from "./components/scoreKeeper/ScoreKeeper.jsx";
+import EmojiCliker from "./components/emojiCliker/EmojiCliker.jsx";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -62,6 +63,8 @@ function App() {
   return (
     <>
       <h1>🔽🌌Excersices for Practice📝🕋</h1>
+      <h5>Using Array in State</h5>
+      <EmojiCliker />
       <h5>Using Objects in State</h5>
       <ScoreKeeper />
       <h5>State Intermediate</h5>
