@@ -10,6 +10,17 @@ const EmojiCliker = () => {
 
   const [emojis, setEmoji] = useState([{ id: uuid(), emoji: randomEmoji() }]);
 
+  const brokenHearts = () => {
+    setEmoji((prevEmoji) => {
+      return prevEmoji.map((newEmoji) => {
+        return {
+          ...newEmoji,
+          emoji: "💔",
+        };
+      });
+    });
+  };
+
   return (
     <div>
       <h1>Emoji Clicker</h1>
@@ -35,6 +46,7 @@ const EmojiCliker = () => {
       >
         Add Ramdon
       </button>
+      <button onClick={brokenHearts}>That Hurts</button>
     </div>
   );
 };
