@@ -66,7 +66,7 @@ function App() {
       <h5>Using Array in State</h5>
       <EmojiCliker />
       <h5>Using Objects in State</h5>
-      <ScoreKeeper />
+      <ScoreKeeper numPlayer={4} target={3} />
       <h5>State Intermediate</h5>
       <StateDemo />
       <h5>States Basics</h5>
